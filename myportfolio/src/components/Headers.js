@@ -5,12 +5,10 @@ export default function Headers() {
   return (
     <div>
       <header className="header1">
-        <div>
-          <NavLink to="/" className="Nav">Home</NavLink>
-        </div>
+       
 
         <div>
-          <NavLink to="/about" className="Nav">About</NavLink>
+          <NavLink to="/" className="Nav">About</NavLink>
         </div>
         <div>
           <NavLink to="/contact" className="Nav">Contact</NavLink>

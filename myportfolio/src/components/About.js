@@ -1,30 +1,34 @@
 import React from 'react'
-import myImage2 from './InShot1.png'
 import Headers from './Headers'
 import './Home.css'
 export default function About() {
   return (
-    <div className='container'>
-    <div className='d2'>
-      <img className ='myimage' src= {myImage2} alt='myImage'/>
-      <div className='typewriter'><p>Hemchand Chandravanshi</p></div>
-      <div className='bio'><p>A highly skilled software developer with a proven track record of efficiently solving complex problems. Proficient in C++, and Python, with hands-on experience in project development utilizing JavaScript, ReactJS, and machine learning.</p></div>
-    </div>
+  
     <div className='d1'>
       <Headers/>
       <div className='About1'>
         <div className='AboutChild'>
-        <h1>Hemchand Chandravanshi</h1>
-        <p>Kawardha, Chhattisgarh</p>
-        <p><b>Education:</b><br/>
-        B Tech<br/>Computer Science and Engineering<br/>
-        Lovely Professional University<br/>
-        Phagwara, Punjab</p>
-        
+        <h1>Hi, I'm Hemchand Chandravanshi</h1>
+        <p>I hail from Kawardha city and currently i'm persuing B Tech in Computer Science & Engineering from Lovely Professional University. My focuse is on building web applications and websites utilizing JavaScript, Reactjs, Nodejs and Machine Learning.</p>
+        <p><b>Programming Languages:</b><br/>
+       </p>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>C++</li>
+        </ul>
+        <p><b>Web Technologies</b><br/></p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>ReactJs</li>
+          <li>NodeJs</li>
+        </ul>
+        <p><b>Artificial Intelligence</b></p>
+        <ul><li>Machine Learning</li></ul>
         </div>
       </div>
     </div>
     
-    </div>
   )
 }
